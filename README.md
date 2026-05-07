@@ -96,8 +96,6 @@ The notebook is designed to run on Google Colab (GPU runtime) or any environment
 jupyter notebook Lora_Fine_Tuning.ipynb
 ```
 
-The first cell installs all required dependencies.
-
 ---
 
 ## Author
