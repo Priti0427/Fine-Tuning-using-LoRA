@@ -2,7 +2,7 @@
 
 Fine-tuning a large language model (LLM) like GPT, LLaMA, or Qwen for a specific downstream task is normally **computationally expensive** because of the billions of parameters involved. **LoRA (Low-Rank Adaptation)** is a Parameter-Efficient Fine-Tuning (PEFT) technique that makes this feasible on modest hardware: it freezes the pretrained weights and trains only a small set of injected low-rank matrices.
 
-This repository contains an end-to-end notebook that fine-tunes **Qwen2.5-0.5B** on the **MBZUAI/LaMini-instruction** dataset using LoRA, then evaluates the result with **ROUGE** and **BLEU**.
+This repository contains an end-to-end notebook file that fine-tunes **Qwen2.5-0.5B** on the **MBZUAI/LaMini-instruction** dataset using LoRA, then evaluates the result with **ROUGE** and **BLEU**.
 
 📖 **Companion blog post:** [Fine-Tuning the Large Language Models (LLMs) Using LoRA](https://medium.com/@pritisagar0427/fine-tuning-the-large-language-models-llms-using-lora-e0d9cc8960cc)
 
