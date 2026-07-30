@@ -100,4 +100,5 @@ jupyter notebook Lora_Fine_Tuning.ipynb
 
 ## Author
 
-**Priti Sagar** — [Medium](https://medium.com/@pritisagar0427)
+**Priti Sagar** — [Medium](https://medium.com/@pritisagar0427/fine-tuning-the-large-language-models-llms-using-lora-e0d9cc8960cc)
+
