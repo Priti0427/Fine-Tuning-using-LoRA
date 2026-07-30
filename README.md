@@ -63,7 +63,7 @@ After applying LoRA on top of Qwen2.5-0.5B:
 trainable params: 17,301,504 || all params: 511,091,456 || trainable%: 3.3852
 ```
 
-Only ~3.39% of the model's parameters are actually trained — the rest of the network stays frozen. This is the core efficiency win of LoRA.
+Only ~3.39% of the model's parameters are actually trained, the rest of the network stays frozen. This is the core efficiency win of LoRA.
 
 Sample evaluation on a held-out instruction (`"List 5 reasons why someone should learn to code."`):
 
@@ -74,7 +74,7 @@ Sample evaluation on a held-out instruction (`"List 5 reasons why someone should
 | ROUGE-L | 0.1404 | 0.5161 | 0.2207 |
 | BLEU | — | — | 0.0168 |
 
-The high ROUGE recall indicates the model captures most of the reference content's vocabulary, while the low BLEU reflects that the phrasing differs from the reference — expected behavior for a small generative model fine-tuned on only 200 examples.
+The high ROUGE recall indicates the model captures most of the reference content's vocabulary, while the low BLEU reflects that the phrasing differs from the reference which is expected behavior for a small generative model fine-tuned on only 200 examples.
 
 ---
 
