@@ -4,7 +4,7 @@ Fine-tuning a large language model (LLM) like GPT, LLaMA, or Qwen for a specific
 
 This repository contains an end-to-end notebook file that fine-tunes **Qwen2.5-0.5B** on the **MBZUAI/LaMini-instruction** dataset using LoRA, then evaluates the result with **ROUGE** and **BLEU**.
 
-📖 **Companion blog post:** [Fine-Tuning the Large Language Models (LLMs) Using LoRA](https://medium.com/@pritisagar0427/fine-tuning-the-large-language-models-llms-using-lora-e0d9cc8960cc)
+📖 **Blog post:** [Fine-Tuning the Large Language Models (LLMs) Using LoRA](https://medium.com/@pritisagar0427/fine-tuning-the-large-language-models-llms-using-lora-e0d9cc8960cc)
 
 ---
 
