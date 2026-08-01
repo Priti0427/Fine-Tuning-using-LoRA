@@ -16,7 +16,7 @@ Instead of updating the full weight matrix `W` of size `d × k`, LoRA learns two
 W_new = W + (alpha / r) · A · B
 ```
 
-Only `A` and `B` are trainable; the original `W` stays frozen. With a rank `r` that is much smaller than `d` and `k`, the number of trainable parameters drops by orders of magnitude — making fine-tuning **cheaper, faster, and more memory-efficient**.
+Only `A` and `B` are trainable; the original `W` stays frozen. With a rank `r` that is much smaller than `d` and `k`, the number of trainable parameters drops by orders of magnitude, making fine-tuning **cheaper, faster, and more memory-efficient**.
 
 ---
 
@@ -82,9 +82,9 @@ The high ROUGE recall indicates the model captures most of the reference content
 
 - **Python**
 - **PyTorch**
-- **Hugging Face** — `transformers`, `datasets`, `peft`
-- **bitsandbytes** — 8-bit quantization
-- **rouge-score** & **nltk** — evaluation metrics
+- **Hugging Face** : `transformers`, `datasets`, `peft`
+- **bitsandbytes** : 8-bit quantization
+- **rouge-score** & **nltk** : evaluation metrics
 
 ---
 
