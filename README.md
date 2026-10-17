@@ -10,13 +10,13 @@ This repository contains an end-to-end notebook file that fine-tunes **Qwen2.5-0
 
 ## How LoRA Works
 
-Instead of updating the full weight matrix `W` of size `d × k`, LoRA learns two small matrices `A` (`d × r`) and `B` (`r × k`) such that the update is:
+Instead of updating the full weight matrix `W` of size `d × k`, LoRA learns two small matrices `A` (`d × r`) and `B` (`r × k`) such that the update is like this:
 
 ```
 W_new = W + (alpha / r) · A · B
 ```
 
-Only `A` and `B` are trainable; the original `W` stays frozen. With a rank `r` that is much smaller than `d` and `k`, the number of trainable parameters drops by orders of magnitude, making fine-tuning **cheaper, faster, and more memory-efficient**.
+Only `A` and `B` are trainable; the original `W` stays frozen. With a rank `r` that is much smaller than `d` and `k`, the number of trainable parameters drops by orders of magnitude, making fine-tuning **cheaper, faster, and memory-efficient**.
 
 ---
 
